@@ -67,7 +67,6 @@ header#cabecalho h2{
 }
 
 /* Foratação de imagens com legendas */
-
 figure.foto-legenda {
 	position: relative; 
 	border: 8px solid white;
@@ -98,7 +97,6 @@ figure.foto-legenda:hover figcaption{
 }
 
 /* Formatação do Menu */
-
 nav#menu {
 	display: block;
 }
@@ -258,4 +256,21 @@ footer#rodape{
 footer#rodape p{
 	text-align: center;
 
+}
+
+/* Configuração dos vídeos no index */
+video#video1{
+    display: block;
+    position: relative;
+    left: 35px;
+    top: -5px;
+    width: 440px;
+}
+
+video#video2{
+    display: block;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 350px;
 }
